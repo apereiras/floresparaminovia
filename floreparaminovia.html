@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas Animadas</title>
+    <style>
+        @keyframes animateFlowers {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .flower {
+            animation: animateFlowers 3s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h1 style="color: red;">¡Te Amo!</h1>
+        <img class="flower" src="flores.jpeg" alt="Flores Amarillas">
+    </div>
+</body>
+</html>
